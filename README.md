@@ -40,7 +40,7 @@ The SDK can be installed with [Composer](http://getcomposer.org/). Please see th
   1. Install the SDK.
 
      ```
-     php composer.phar require dts/ebay-sdk-php
+     php composer.phar require toka/ebay-sdk
      ```
 
   1. Require Composer's autoloader by adding the following line to your code.
@@ -78,8 +78,8 @@ printf("The official eBay time is: %s\n", $response->Timestamp->format('H:i (\G\
 
   - Be well maintained.
   - Be [well documented](http://devbay.net/sdk/guides/).
-  - Be [well tested](https://github.com/davidtsadler/ebay-sdk-php/tree/master/test).
-  - Be well supported with [working examples](https://github.com/davidtsadler/ebay-sdk-examples).
+  - Be [well tested](https://github.com/nguyenhieptn/ebay-sdk/tree/master/test).
+  - Be well supported with [working examples](https://github.com/nguyenhieptn/ebay-sdk-examples).
 
 ## License
 
