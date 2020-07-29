@@ -1,5 +1,5 @@
 {
-    "name": "tokamedia/ebay-sdk",
+    "name": "toka/ebay-sdk",
     "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
     "keywords": ["ebay", "api", "sdk"],
     "homepage": "http://devbay.net/",
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Toka\\eBaySDK\\": "src/"
+            "DTS\\eBaySDK\\": "src/"
         },
         "files": ["src/functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Toka\\eBaySDK\\Test\\": "test/"
+            "DTS\\eBaySDK\\Test\\": "test/"
         },
         "classmap": ["build/"]
     }
